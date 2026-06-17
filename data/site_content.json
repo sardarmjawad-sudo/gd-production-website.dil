@@ -127,12 +127,6 @@
   ],
   "portfolio": [
     {
-      "title": "Restaurant Flyers",
-      "category": "Restaurants",
-      "description": "Promotional flyers for local food businesses.",
-      "image": "https://picsum.photos/seed/restaurant/400/300"
-    },
-    {
       "title": "Salon Promotions",
       "category": "Salons",
       "description": "Social media marketing materials for beauty salons.",
@@ -161,6 +155,12 @@
       "category": "Healthcare & Medical",
       "description": "E-commerce and informational site for a local pharmacy.",
       "image": "https://picsum.photos/seed/pharmacy/400/300"
+    },
+    {
+      "title": "Subway Camano Island",
+      "category": "Restaurants",
+      "description": "Promotional flyers for local Subway",
+      "image": "/assets/portfolio/79585.jpg"
     }
   ],
   "beforeAfterShowcase": {
