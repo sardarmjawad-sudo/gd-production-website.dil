@@ -129,40 +129,16 @@
   ],
   "portfolio": [
     {
-      "title": "Salon Promotions",
-      "category": "Salons",
-      "description": "Social media marketing materials for beauty salons.",
-      "image": "https://picsum.photos/seed/salon/400/300"
-    },
-    {
-      "title": "Butcher Shop Designs",
-      "category": "Butcher Shops",
-      "description": "Menu boards and branding for halal meat shops.",
-      "image": "https://picsum.photos/seed/butcher/400/300"
-    },
-    {
-      "title": "Business Websites",
-      "category": "Websites",
-      "description": "Modern, responsive websites for local services.",
-      "image": "https://picsum.photos/seed/website/400/300"
-    },
-    {
-      "title": "Hospital Website",
-      "category": "Healthcare & Medical",
-      "description": "A comprehensive website for a regional hospital.",
-      "image": "https://picsum.photos/seed/hospital/400/300"
-    },
-    {
-      "title": "Pharmacy Website",
-      "category": "Healthcare & Medical",
-      "description": "E-commerce and informational site for a local pharmacy.",
-      "image": "https://picsum.photos/seed/pharmacy/400/300"
-    },
-    {
       "title": "Subway Camano Island",
       "category": "Restaurants",
       "description": "Promotional flyers for local Subway",
       "image": "/assets/portfolio/79585.jpg"
+    },
+    {
+      "title": "Halal Fresh Meatz Chandler ",
+      "category": "Butcher Shops",
+      "description": "Logo Design",
+      "image": "/assets/portfolio/80653.jpg"
     }
   ],
   "beforeAfterShowcase": {
