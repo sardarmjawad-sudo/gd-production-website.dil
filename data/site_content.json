@@ -145,6 +145,12 @@
       "category": "Butcher Shops",
       "description": "We Do Marketing all over USA",
       "image": "/assets/portfolio/80669.jpg"
+    },
+    {
+      "title": "Pastry Corner Cafe & Lounge",
+      "category": "Restaurants",
+      "description": "Update your Daily Flyer with Menu Special Deals ",
+      "image": "/assets/portfolio/80670.jpg"
     }
   ],
   "beforeAfterShowcase": {
