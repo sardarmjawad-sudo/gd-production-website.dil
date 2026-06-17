@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GD Production | USA Local Business Marketing</title>
+  <meta name="description" content="I help restaurants, salons, butcher shops, and local USA businesses grow with premium graphic design, web development, social media marketing, and Google Maps ranking.">
+  <link rel="icon" href="assets/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar" id="navbar">
+  <div class="container navbar-inner">
+    <a href="#" class="logo-link">
+      <img src="assets/logo.jpg" alt="GD Production Logo" class="logo-img" style="height: 55px; border-radius: 50%; box-shadow: 0 0 15px rgba(0, 163, 255, 0.3);">
+    </a>
+    <div class="nav-links" id="navLinks">
+      <a href="#">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#contact" class="btn-primary btn-sm">Contact Me</a>
+    </div>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="hero">
+  <canvas id="heroCanvas" class="hero-canvas"></canvas>
+  <div class="hero-glow hero-glow-1"></div>
+  <div class="hero-glow hero-glow-2"></div>
+  <div class="container hero-grid">
+    <div class="hero-content anim-fade" data-anim="fade-right">
+      <div class="badge"><span class="badge-dot"></span><span>Premium Agency Services in USA</span></div>
+      <h1>Graphic Design, Websites &amp; <span class="text-gradient-gold">Local Marketing</span> for USA Businesses</h1>
+      <p class="hero-sub">I help local businesses across the USA—from restaurants and salons to service providers and retail shops—grow with premium graphic design, web development, social media marketing, and Google Maps ranking.</p>
+      <div class="hero-buttons">
+        <a href="#contact" class="btn-primary">Get Free Consultation <span class="arrow">→</span></a>
+        <a href="#portfolio" class="btn-outline">View My Work</a>
+      </div>
+      <div class="hero-stars">
+        <div class="star-row">
+          <div class="star-circle">★</div>
+          <div class="star-circle">★</div>
+          <div class="star-circle">★</div>
+          <div class="star-circle">★</div>
+          <div class="star-circle">★</div>
+        </div>
+        <p class="star-text">Trusted by <strong>50+</strong> Local USA Businesses</p>
+      </div>
+    </div>
+    <div class="hero-visual anim-fade" data-anim="fade-up">
+      <div class="mockup-wrapper">
+        <div class="mockup-card mockup-website float-anim-1">
+          <div class="browser-dots"><span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span></div>
+          <div class="mockup-body"><div class="icon-monitor">🖥</div><p class="fw-600">Premium Website</p><p class="text-sm text-muted">Responsive Design</p></div>
+        </div>
+        <div class="mockup-card mockup-maps float-anim-2">
+          <div class="maps-header"><div class="maps-icon">📍</div><div><div class="skeleton-bar"></div><div class="stars-text">★★★★★ <span class="text-muted text-xs">(128)</span></div></div></div>
+          <div class="skeleton-lines"><div class="skeleton-bar full"></div><div class="skeleton-bar w80"></div><div class="skeleton-bar full"></div></div>
+          <div class="maps-cta">Rank #1 on Google</div>
+        </div>
+        <div class="mockup-card mockup-social float-anim-3">
+          <div class="social-header"><div class="social-avatar"></div><div class="skeleton-bar w60"></div></div>
+          <div class="social-img">📱</div>
+          <div class="skeleton-lines sm"><div class="skeleton-bar full"></div><div class="skeleton-bar w60"></div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TRUST -->
+<section class="section trust-section" id="trust">
+  <div class="container">
+    <div class="section-header anim-fade" data-anim="fade-up">
+      <h2>Trusted by Local Businesses Across the USA</h2>
+      <p>I have worked with multiple local businesses across the USA, helping them with graphic design, social media marketing, Google Business Profile optimization, website development, and business promotion.</p>
+    </div>
+    <div class="trust-grid" id="trustGrid">
+      <div class="glass-card glass-card-hover p-6 rounded-xl flex items-center justify-center text-center h-24"><span class="font-semibold text-gray-300 tracking-wide text-sm md:text-base">Local Restaurants</span></div>
+      <div class="glass-card glass-card-hover p-6 rounded-xl flex items-center justify-center text-center h-24"><span class="font-semibold text-gray-300 tracking-wide text-sm md:text-base">U-Haul Dealers</span></div>
+      <div class="glass-card glass-card-hover p-6 rounded-xl flex items-center justify-center text-center h-24"><span class="font-semibold text-gray-300 tracking-wide text-sm md:text-base">Telecom Providers</span></div>
+      <div class="glass-card glass-card-hover p-6 rounded-xl flex items-center justify-center text-center h-24"><span class="font-semibold text-gray-300 tracking-wide text-sm md:text-base">Beauty Salons</span></div>
+      <div class="glass-card glass-card-hover p-6 rounded-xl flex items-center justify-center text-center h-24"><span class="font-semibold text-gray-300 tracking-wide text-sm md:text-base">Butcher Shops</span></div>
+      <div class="glass-card glass-card-hover p-6 rounded-xl flex items-center justify-center text-center h-24"><span class="font-semibold text-gray-300 tracking-wide text-sm md:text-base">Modern Cafes</span></div>
+      <div class="glass-card glass-card-hover p-6 rounded-xl flex items-center justify-center text-center h-24"><span class="font-semibold text-gray-300 tracking-wide text-sm md:text-base">Artisanal Bakeries</span></div>
+      <div class="glass-card glass-card-hover p-6 rounded-xl flex items-center justify-center text-center h-24"><span class="font-semibold text-gray-300 tracking-wide text-sm md:text-base">Local Service Providers</span></div>
+    </div>
+    <p class="trust-more anim-fade" data-anim="fade-up">And Many More Local Businesses</p>
+  </div>
+</section>
+
+<!-- TRUST OFFER -->
+<section class="section trust-offer-section">
+  <div class="container">
+    <div class="trust-offer-card">
+      <div class="trust-offer-grid">
+        <div class="anim-fade" data-anim="fade-right">
+          <div class="trust-badge"><span class="pulse-icon">🛡</span><span>Premium Trust Guarantee</span></div>
+          <h2>No Need to Pay First — <br><span class="text-gradient-gold">See the Work, Then Pay</span></h2>
+          <p>I believe in building trust through excellence. You do not need to pay before seeing the results. I start by showing you the quality, design, and strategy first. Once you are 100% satisfied, then we discuss payment.</p>
+          <a href="#contact" class="btn-gold">Start Your Risk-Free Project</a>
+        </div>
+        <div class="trust-points anim-fade" data-anim="fade-up">
+          <h3>Why This Works for You</h3>
+          <ul id="trustPoints">
+            <li class="flex items-center space-x-4"><div class="w-8 h-8 rounded-full bg-green-500-10 flex items-center justify-center flex-shrink-0 border border-green-500-20"><span class="text-green-400">✔</span></div><span class="text-gray-200 font-medium text-lg">No upfront pressure</span></li>
+            <li class="flex items-center space-x-4"><div class="w-8 h-8 rounded-full bg-green-500-10 flex items-center justify-center flex-shrink-0 border border-green-500-20"><span class="text-green-400">✔</span></div><span class="text-gray-200 font-medium text-lg">See the quality first</span></li>
+            <li class="flex items-center space-x-4"><div class="w-8 h-8 rounded-full bg-green-500-10 flex items-center justify-center flex-shrink-0 border border-green-500-20"><span class="text-green-400">✔</span></div><span class="text-gray-200 font-medium text-lg">Work-first approach</span></li>
+            <li class="flex items-center space-x-4"><div class="w-8 h-8 rounded-full bg-green-500-10 flex items-center justify-center flex-shrink-0 border border-green-500-20"><span class="text-green-400">✔</span></div><span class="text-gray-200 font-medium text-lg">Built on trust</span></li>
+            <li class="flex items-center space-x-4"><div class="w-8 h-8 rounded-full bg-green-500-10 flex items-center justify-center flex-shrink-0 border border-green-500-20"><span class="text-green-400">✔</span></div><span class="text-gray-200 font-medium text-lg">Perfect for small businesses</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="section" id="about">
+  <div class="container">
+    <div class="about-grid">
+      <div class="anim-fade" data-anim="fade-right">
+        <h2>About <span class="text-gradient-gold">Muhammad Jawad Ahmad</span></h2>
+        <div class="accent-line"></div>
+        <div class="about-text">
+          <p class="quote">"My disability is not my weakness — it is part of my strength, my discipline, and my motivation to work harder every day."</p>
+          <p>My name is <strong>Muhammad Jawad Ahmad</strong>, and I am a professional graphic designer, web developer, social media marketing agent, and Google Maps ranking specialist.</p>
+          <p>I am also a person with a disability, but I never allowed my challenges to stop me from building my skills, working hard, and helping businesses grow.</p>
+          <p>I help local businesses in the USA look more professional and grow online through premium graphic design, modern websites, social media marketing, and Google Maps ranking.</p>
+          <p>I have worked with a diverse range of local businesses—from restaurants and beauty salons to service dealerships and cafes.</p>
+          <p>I believe in a <strong class="text-gold">work-first approach</strong>. No need to pay first — I show the quality of my work first, build trust, and then move forward.</p>
+        </div>
+      </div>
+      <div class="about-image-wrapper anim-fade" data-anim="scale-in">
+        <div class="about-glow"></div>
+        <div class="about-frame">
+          <div class="about-img-container">
+            <img src="assets/jawad.png" alt="Muhammad Jawad Ahmad" class="about-photo">
+            <div class="about-overlay"></div>
+            <div class="about-label glass-morphism">
+              <div class="label-icon"><div class="icon-inner">★</div></div>
+              <div><p class="fw-900 text-white text-lg">Jawad Ahmad</p><p class="text-gold text-xs tracking-wide">PREMIUM DESIGNER</p></div>
+            </div>
+          </div>
+        </div>
+        <div class="floating-badge badge-clients float-anim-1"><p class="fw-700 text-lg">50+</p><p class="text-xs text-muted">Clients</p></div>
+        <div class="floating-badge badge-satisfaction float-anim-2"><p class="fw-700 text-lg text-gold">100%</p><p class="text-xs text-muted">Satisfaction</p></div>
+        <div class="floating-badge badge-strength float-anim-3">
+          <div class="mini-icon">★</div>
+          <div><p class="text-xs text-muted tracking-wide">DRIVEN BY</p><p class="text-xs fw-700 text-white">STRENGTH &amp; DISCIPLINE</p></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="section section-alt" id="services">
+  <div class="container">
+    <div class="section-header anim-fade" data-anim="fade-up">
+      <h2>Premium Digital <span class="text-gradient-primary">Services</span></h2>
+      <p>Everything you need to build a strong brand, attract local customers, and grow your business online.</p>
+    </div>
+    <div class="services-grid" id="servicesGrid">
+      <div class="glass-morphism glass-card-hover p-8 rounded-2xl border-t-4 border-pink-500-20 relative overflow-hidden group">
+        <div class="absolute inset-0 bg-gradient-to-br from-pink-500-20 to-rose-500-5 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
+        <div class="relative z-10"><div class="w-16 h-16 rounded-xl bg-gray-900 flex items-center justify-center mb-6 border border-white-10"><span class="text-pink-400 text-2xl">🎨</span></div><h3 class="text-2xl font-bold text-white mb-4">Graphic Design</h3><p class="text-gray-400 leading-relaxed">Flyers, posters, menus, banners, logos, social media posts, event promotions, business cards, and brand visuals.</p></div>
+      </div>
+      <div class="glass-morphism glass-card-hover p-8 rounded-2xl border-t-4 border-blue-500-20 relative overflow-hidden group">
+        <div class="absolute inset-0 bg-gradient-to-br from-blue-500-20 to-cyan-500-5 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
+        <div class="relative z-10"><div class="w-16 h-16 rounded-xl bg-gray-900 flex items-center justify-center mb-6 border border-white-10"><span class="text-blue-400 text-2xl">🌐</span></div><h3 class="text-2xl font-bold text-white mb-4">Website Development</h3><p class="text-gray-400 leading-relaxed">Business websites, landing pages, e-commerce websites, responsive websites, booking forms, contact forms, and modern web design.</p></div>
+      </div>
+      <div class="glass-morphism glass-card-hover p-8 rounded-2xl border-t-4 border-purple-500-20 relative overflow-hidden group">
+        <div class="absolute inset-0 bg-gradient-to-br from-purple-500-20 to-indigo-500-5 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
+        <div class="relative z-10"><div class="w-16 h-16 rounded-xl bg-gray-900 flex items-center justify-center mb-6 border border-white-10"><span class="text-purple-400 text-2xl">📈</span></div><h3 class="text-2xl font-bold text-white mb-4">Social Media Marketing</h3><p class="text-gray-400 leading-relaxed">Facebook, Instagram, TikTok content, monthly posting, promotions, captions, reels ideas, and campaign planning.</p></div>
+      </div>
+      <div class="glass-morphism glass-card-hover p-8 rounded-2xl border-t-4 border-green-500-20 relative overflow-hidden group">
+        <div class="absolute inset-0 bg-gradient-to-br from-green-500-20 to-emerald-500-5 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
+        <div class="relative z-10"><div class="w-16 h-16 rounded-xl bg-gray-900 flex items-center justify-center mb-6 border border-white-10"><span class="text-green-400 text-2xl">📍</span></div><h3 class="text-2xl font-bold text-white mb-4">Google Maps Ranking</h3><p class="text-gray-400 leading-relaxed">Google Business Profile optimization, local SEO, review strategy, keyword ranking, map visibility, and customer calls growth.</p></div>
+      </div>
+      <div class="glass-morphism glass-card-hover p-8 rounded-2xl border-t-4 border-yellow-500-20 relative overflow-hidden group">
+        <div class="absolute inset-0 bg-gradient-to-br from-yellow-500-20 to-orange-500-5 opacity-0 transition-opacity duration-500 hover:opacity-100"></div>
+        <div class="relative z-10"><div class="w-16 h-16 rounded-xl bg-gray-900 flex items-center justify-center mb-6 border border-white-10"><span class="text-yellow-400 text-2xl">🚀</span></div><h3 class="text-2xl font-bold text-white mb-4">Branding &amp; Business Growth</h3><p class="text-gray-400 leading-relaxed">Brand identity, offer creation, campaign design, marketing strategy, and local business growth planning.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- INDUSTRIES -->
+<section class="section" id="industries">
+  <div class="container">
+    <div class="section-header anim-fade" data-anim="fade-up">
+      <h2>Industries I <span class="text-gradient-blue">Help Grow</span></h2>
+      <p>From food businesses to service-based companies, I create designs, websites, and marketing strategies that help local businesses look professional, attract customers, and grow online.</p>
+    </div>
+    <div class="industries-grid" id="industriesGrid">
+      <div class="glass-card glass-card-hover rounded-xl p-6 flex items-center justify-center text-center min-h-120"><h3 class="text-white font-semibold text-sm md:text-base">Restaurants &amp; Cafes</h3></div>
+      <div class="glass-card glass-card-hover rounded-xl p-6 flex items-center justify-center text-center min-h-120"><h3 class="text-white font-semibold text-sm md:text-base">Salons &amp; Spas</h3></div>
+      <div class="glass-card glass-card-hover rounded-xl p-6 flex items-center justify-center text-center min-h-120"><h3 class="text-white font-semibold text-sm md:text-base">Butcher Shops &amp; Grocery Stores</h3></div>
+      <div class="glass-card glass-card-hover rounded-xl p-6 flex items-center justify-center text-center min-h-120"><h3 class="text-white font-semibold text-sm md:text-base">U-Haul / Rental Businesses</h3></div>
+      <div class="glass-card glass-card-hover rounded-xl p-6 flex items-center justify-center text-center min-h-120"><h3 class="text-white font-semibold text-sm md:text-base">Mobile &amp; Telecom Stores</h3></div>
+      <div class="glass-card glass-card-hover rounded-xl p-6 flex items-center justify-center text-center min-h-120"><h3 class="text-white font-semibold text-sm md:text-base">Smoke Shops</h3></div>
+      <div class="glass-card glass-card-hover rounded-xl p-6 flex items-center justify-center text-center min-h-120"><h3 class="text-white font-semibold text-sm md:text-base">Local Service Businesses</h3></div>
+      <div class="glass-card glass-card-hover rounded-xl p-6 flex items-center justify-center text-center min-h-120"><h3 class="text-white font-semibold text-sm md:text-base">E-commerce Businesses</h3></div>
+    </div>
+  </div>
+</section>
+
+<!-- WHY CHOOSE ME -->
+<section class="section section-alt" id="whyChooseMe">
+  <div class="container">
+    <div class="why-grid">
+      <div class="anim-fade" data-anim="fade-right">
+        <h2>Why <span class="text-gradient-gold">Choose Me</span></h2>
+        <p class="text-muted-light">I am dedicated to helping USA local businesses grow. My comprehensive approach covers everything from your brand identity to how you rank on Google.</p>
+        <div class="guarantee-card">
+          <h4>MY GUARANTEE</h4>
+          <p>You do not need to pay before seeing the work. I show you the quality first to build trust.</p>
+        </div>
+      </div>
+      <div class="reasons-grid anim-fade" data-anim="fade-up" id="reasonsGrid">
+        <div class="glass-morphism p-5 rounded-2xl flex items-start space-x-4 border border-white-5"><div class="w-8 h-8 rounded-full bg-gold-10 flex items-center justify-center flex-shrink-0"><span class="text-gold">✔</span></div><span class="text-gray-200 font-medium leading-tight pt-1">Professional premium designs</span></div>
+        <div class="glass-morphism p-5 rounded-2xl flex items-start space-x-4 border border-white-5"><div class="w-8 h-8 rounded-full bg-gold-10 flex items-center justify-center flex-shrink-0"><span class="text-gold">✔</span></div><span class="text-gray-200 font-medium leading-tight pt-1">Experience with USA local businesses</span></div>
+        <div class="glass-morphism p-5 rounded-2xl flex items-start space-x-4 border border-white-5"><div class="w-8 h-8 rounded-full bg-gold-10 flex items-center justify-center flex-shrink-0"><span class="text-gold">✔</span></div><span class="text-gray-200 font-medium leading-tight pt-1">Graphic design + website + marketing in one place</span></div>
+        <div class="glass-morphism p-5 rounded-2xl flex items-start space-x-4 border border-white-5"><div class="w-8 h-8 rounded-full bg-gold-10 flex items-center justify-center flex-shrink-0"><span class="text-gold">✔</span></div><span class="text-gray-200 font-medium leading-tight pt-1">Google Maps ranking knowledge</span></div>
+        <div class="glass-morphism p-5 rounded-2xl flex items-start space-x-4 border border-white-5"><div class="w-8 h-8 rounded-full bg-gold-10 flex items-center justify-center flex-shrink-0"><span class="text-gold">✔</span></div><span class="text-gray-200 font-medium leading-tight pt-1">Affordable monthly packages</span></div>
+        <div class="glass-morphism p-5 rounded-2xl flex items-start space-x-4 border border-white-5"><div class="w-8 h-8 rounded-full bg-gold-10 flex items-center justify-center flex-shrink-0"><span class="text-gold">✔</span></div><span class="text-gray-200 font-medium leading-tight pt-1">Fast delivery</span></div>
+        <div class="glass-morphism p-5 rounded-2xl flex items-start space-x-4 border border-white-5"><div class="w-8 h-8 rounded-full bg-gold-10 flex items-center justify-center flex-shrink-0"><span class="text-gold">✔</span></div><span class="text-gray-200 font-medium leading-tight pt-1">Creative marketing ideas</span></div>
+        <div class="glass-morphism p-5 rounded-2xl flex items-start space-x-4 border border-white-5"><div class="w-8 h-8 rounded-full bg-gold-10 flex items-center justify-center flex-shrink-0"><span class="text-gold">✔</span></div><span class="text-gray-200 font-medium leading-tight pt-1">No need to pay first — see the work, then pay</span></div>
+        <div class="glass-morphism p-5 rounded-2xl flex items-start space-x-4 border border-white-5"><div class="w-8 h-8 rounded-full bg-gold-10 flex items-center justify-center flex-shrink-0"><span class="text-gold">✔</span></div><span class="text-gray-200 font-medium leading-tight pt-1">Work first, build trust</span></div>
+        <div class="glass-morphism p-5 rounded-2xl flex items-start space-x-4 border border-white-5"><div class="w-8 h-8 rounded-full bg-gold-10 flex items-center justify-center flex-shrink-0"><span class="text-gold">✔</span></div><span class="text-gray-200 font-medium leading-tight pt-1">Designs that help attract real customers</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PORTFOLIO -->
+<section class="section" id="portfolio">
+  <div class="container">
+    <div class="section-header anim-fade" data-anim="fade-up">
+      <h2>My <span class="text-gradient-blue">Portfolio</span></h2>
+      <p>A glimpse into the premium designs, websites, and marketing campaigns I create for local businesses.</p>
+    </div>
+    <div class="portfolio-grid" id="portfolioGrid">
+      <div class="glass-morphism rounded-2xl overflow-hidden group cursor-pointer border border-white-10">
+        <div class="h-48 w-full relative overflow-hidden"><div class="absolute inset-0 bg-gradient-to-t from-brand-black to-transparent z-10 opacity-60"></div><img src="assets/portfolio/restaurant.png" alt="Restaurant Flyers" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"></div>
+        <div class="p-6 relative z-30"><span class="text-gradient-gold text-xs font-bold uppercase tracking-widest mb-2 block">Graphic Design</span><h3 class="text-xl font-bold text-white mb-2">Restaurant Flyers</h3><p class="text-sm text-gray-400 leading-relaxed">Promotional flyers for local food businesses.</p></div>
+      </div>
+      <div class="glass-morphism rounded-2xl overflow-hidden group cursor-pointer border border-white-10">
+        <div class="h-48 w-full relative overflow-hidden"><div class="absolute inset-0 bg-gradient-to-t from-brand-black to-transparent z-10 opacity-60"></div><img src="assets/portfolio/salon.png" alt="Salon Promotions" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"></div>
+        <div class="p-6 relative z-30"><span class="text-gradient-gold text-xs font-bold uppercase tracking-widest mb-2 block">Social Media Marketing</span><h3 class="text-xl font-bold text-white mb-2">Salon Promotions</h3><p class="text-sm text-gray-400 leading-relaxed">Social media marketing materials for beauty salons.</p></div>
+      </div>
+      <div class="glass-morphism rounded-2xl overflow-hidden group cursor-pointer border border-white-10">
+        <div class="h-48 w-full relative overflow-hidden"><div class="absolute inset-0 bg-gradient-to-t from-brand-black to-transparent z-10 opacity-60"></div><img src="assets/portfolio/butcher.png" alt="Butcher Shop Designs" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"></div>
+        <div class="p-6 relative z-30"><span class="text-gradient-gold text-xs font-bold uppercase tracking-widest mb-2 block">Branding</span><h3 class="text-xl font-bold text-white mb-2">Butcher Shop Designs</h3><p class="text-sm text-gray-400 leading-relaxed">Menu boards and branding for halal meat shops.</p></div>
+      </div>
+      <div class="glass-morphism rounded-2xl overflow-hidden group cursor-pointer border border-white-10">
+        <div class="h-48 w-full relative overflow-hidden"><div class="absolute inset-0 bg-gradient-to-t from-brand-black to-transparent z-10 opacity-60"></div><img src="assets/portfolio/website.png" alt="Business Websites" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"></div>
+        <div class="p-6 relative z-30"><span class="text-gradient-gold text-xs font-bold uppercase tracking-widest mb-2 block">Website Development</span><h3 class="text-xl font-bold text-white mb-2">Business Websites</h3><p class="text-sm text-gray-400 leading-relaxed">Modern, responsive websites for local services.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PRICING -->
+<section class="section section-alt" id="pricing">
+  <div class="container">
+    <div class="section-header anim-fade" data-anim="fade-up">
+      <h2>Simple, Transparent <span class="text-gradient-primary">Pricing</span></h2>
+      <p>Invest in your business growth with packages designed for local businesses in the USA.</p>
+    </div>
+    <div class="pricing-center anim-fade" data-anim="scale-in">
+      <div class="pricing-card">
+        <div class="pricing-popular">Most Popular</div>
+        <h3>Premium Agency Package</h3>
+        <p class="text-muted text-sm">Best for businesses that need full website, branding, and marketing support.</p>
+        <div class="pricing-amount"><span class="text-gradient-gold">Custom</span> <span class="text-muted">Quote</span></div>
+        <div class="pricing-divider"></div>
+        <ul class="pricing-features" id="pricingFeatures">
+          <li><span class="text-gold">✔</span> <span class="text-gray-200">Website development</span></li>
+          <li><span class="text-gold">✔</span> <span class="text-gray-200">E-commerce website option</span></li>
+          <li><span class="text-gold">✔</span> <span class="text-gray-200">Full branding</span></li>
+          <li><span class="text-gold">✔</span> <span class="text-gray-200">Graphic design</span></li>
+          <li><span class="text-gold">✔</span> <span class="text-gray-200">Social media marketing</span></li>
+          <li><span class="text-gold">✔</span> <span class="text-gray-200">Google Maps ranking</span></li>
+          <li><span class="text-gold">✔</span> <span class="text-gray-200">Google Business Profile optimization</span></li>
+          <li><span class="text-gold">✔</span> <span class="text-gray-200">Local SEO strategy</span></li>
+          <li><span class="text-gold">✔</span> <span class="text-gray-200">Full business growth plan</span></li>
+        </ul>
+        <a href="#contact" class="btn-gold-full">Request Custom Quote</a>
+      </div>
+    </div>
+    <p class="pricing-note anim-fade" data-anim="fade-up">Flexible custom packages are available. <strong>No need to pay first</strong> — I believe in showing the work and building trust before payment.</p>
+  </div>
+</section>
+
+<!-- PROCESS -->
+<section class="section" id="process">
+  <div class="container">
+    <div class="section-header anim-fade" data-anim="fade-up">
+      <h2>How We <span class="text-gradient-blue">Work Together</span></h2>
+      <p>A simple, transparent 5-step process designed to take your local business to the next level.</p>
+    </div>
+    <div class="process-wrapper">
+      <div class="process-line"></div>
+      <div class="process-grid" id="processGrid">
+        <div class="glass-card p-6 rounded-2xl border border-white-5 h-full flex flex-col items-center text-center">
+          <div class="w-16 h-16 rounded-full bg-blue-800 flex items-center justify-center mb-6"><span class="text-xl font-bold text-white">01</span></div>
+          <h3 class="text-lg font-bold text-white mb-3">Business Consultation</h3><p class="text-sm text-gray-400 leading-relaxed">I understand your business, goals, location, and target customers.</p>
+        </div>
+        <div class="glass-card p-6 rounded-2xl border border-white-5 h-full flex flex-col items-center text-center">
+          <div class="w-16 h-16 rounded-full bg-blue-800 flex items-center justify-center mb-6"><span class="text-xl font-bold text-white">02</span></div>
+          <h3 class="text-lg font-bold text-white mb-3">Strategy &amp; Design Plan</h3><p class="text-sm text-gray-400 leading-relaxed">I create a marketing plan with design, website, social media, and Google ranking ideas.</p>
+        </div>
+        <div class="glass-card p-6 rounded-2xl border border-white-5 h-full flex flex-col items-center text-center">
+          <div class="w-16 h-16 rounded-full bg-blue-800 flex items-center justify-center mb-6"><span class="text-xl font-bold text-white">03</span></div>
+          <h3 class="text-lg font-bold text-white mb-3">Content / Website Creation</h3><p class="text-sm text-gray-400 leading-relaxed">I design professional graphics, build website pages, and prepare marketing content.</p>
+        </div>
+        <div class="glass-card p-6 rounded-2xl border border-white-5 h-full flex flex-col items-center text-center">
+          <div class="w-16 h-16 rounded-full bg-blue-800 flex items-center justify-center mb-6"><span class="text-xl font-bold text-white">04</span></div>
+          <h3 class="text-lg font-bold text-white mb-3">Launch &amp; Promotion</h3><p class="text-sm text-gray-400 leading-relaxed">Your designs, website, and Google profile updates go live professionally.</p>
+        </div>
+        <div class="glass-card p-6 rounded-2xl border border-white-5 h-full flex flex-col items-center text-center">
+          <div class="w-16 h-16 rounded-full bg-blue-800 flex items-center justify-center mb-6"><span class="text-xl font-bold text-white">05</span></div>
+          <h3 class="text-lg font-bold text-white mb-3">Monthly Growth Support</h3><p class="text-sm text-gray-400 leading-relaxed">I help your business stay active, visible, and trusted online.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- RESULTS -->
+<section class="section section-alt" id="results">
+  <div class="container">
+    <div class="section-header anim-fade" data-anim="fade-up">
+      <h2>Marketing That Helps Your Business <span class="text-gradient-primary">Get Noticed</span></h2>
+    </div>
+    <div class="results-grid" id="resultsGrid">
+      <div class="glass-card p-6 rounded-2xl flex items-center justify-between group hover-border-gold transition-colors"><span class="text-lg font-semibold text-gray-200">Better online presence</span><div class="w-10 h-10 rounded-full bg-white-5 flex items-center justify-center"><span class="text-gray-400 text-xl">↗</span></div></div>
+      <div class="glass-card p-6 rounded-2xl flex items-center justify-between group hover-border-gold transition-colors"><span class="text-lg font-semibold text-gray-200">More professional brand image</span><div class="w-10 h-10 rounded-full bg-white-5 flex items-center justify-center"><span class="text-gray-400 text-xl">↗</span></div></div>
+      <div class="glass-card p-6 rounded-2xl flex items-center justify-between group hover-border-gold transition-colors"><span class="text-lg font-semibold text-gray-200">More customer trust</span><div class="w-10 h-10 rounded-full bg-white-5 flex items-center justify-center"><span class="text-gray-400 text-xl">↗</span></div></div>
+      <div class="glass-card p-6 rounded-2xl flex items-center justify-between group hover-border-gold transition-colors"><span class="text-lg font-semibold text-gray-200">More calls and visits</span><div class="w-10 h-10 rounded-full bg-white-5 flex items-center justify-center"><span class="text-gray-400 text-xl">↗</span></div></div>
+      <div class="glass-card p-6 rounded-2xl flex items-center justify-between group hover-border-gold transition-colors"><span class="text-lg font-semibold text-gray-200">Stronger social media presence</span><div class="w-10 h-10 rounded-full bg-white-5 flex items-center justify-center"><span class="text-gray-400 text-xl">↗</span></div></div>
+      <div class="glass-card p-6 rounded-2xl flex items-center justify-between group hover-border-gold transition-colors"><span class="text-lg font-semibold text-gray-200">Better Google Maps visibility</span><div class="w-10 h-10 rounded-full bg-white-5 flex items-center justify-center"><span class="text-gray-400 text-xl">↗</span></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="section" id="contact">
+  <div class="container">
+    <div class="contact-grid">
+      <div class="anim-fade" data-anim="fade-right">
+        <h2>Ready to grow your business?<br><span class="text-gradient-gold">Let's work together.</span></h2>
+        <p class="text-muted-light">Fill out the form below to request a free consultation. Remember, there's no upfront pressure — I believe in building trust first.</p>
+        <div class="contact-info">
+          <div class="contact-item"><div class="contact-icon blue">✉</div><div><p class="text-sm text-muted">Send an email</p><p class="fw-700 text-white"><a href="mailto:GDProductionmarketing@gmail.com" style="transition: color 0.3s;" onmouseover="this.style.color='var(--blue)'" onmouseout="this.style.color='inherit'">GDProductionmarketing@gmail.com</a></p></div></div>
+        </div>
+      </div>
+      <div class="anim-fade" data-anim="fade-up">
+        <form class="contact-form glass-card" id="contactForm">
+          <div class="form-row">
+            <div class="form-group"><label>Name</label><input type="text" name="name" placeholder="John Doe" required></div>
+            <div class="form-group"><label>Business Name</label><input type="text" name="business_name" placeholder="Your Business LLC"></div>
+          </div>
+          <div class="form-row">
+            <div class="form-group"><label>Email</label><input type="email" name="email" placeholder="john@example.com" required></div>
+            <div class="form-group"><label>Phone</label><input type="tel" name="phone" placeholder="(555) 000-0000"></div>
+          </div>
+          <div class="form-group"><label>Service Needed</label>
+            <select name="service"><option value="" disabled selected>Select a service</option><option>Graphic Design</option><option>Website Development</option><option>Social Media Marketing</option><option>Google Maps Ranking</option><option>Full Business Growth Package</option></select>
+          </div>
+          <div class="form-group"><label>Message</label><textarea name="message" rows="4" placeholder="Tell me about your business goals..." required></textarea></div>
+          <div class="form-buttons">
+            <button type="submit" class="btn-primary flex-1">Book Free Consultation</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-logo"><img src="assets/logo.jpg" alt="GD Production Logo" class="logo-img-sm" style="height: 65px; border-radius: 50%; margin-bottom: 1rem; box-shadow: 0 0 15px rgba(0, 163, 255, 0.2);"></div>
+        <p class="text-sm text-muted">Premium agency services for local businesses across the USA.</p>
+        <div class="social-icons"><a href="#">🌐</a><a href="#">👥</a><a href="#">🔗</a><a href="#">📩</a></div>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <ul><li><a href="#">Home</a></li><li><a href="#about">About Me</a></li><li><a href="#services">Services</a></li><li><a href="#portfolio">My Work</a></li><li><a href="#pricing">Pricing</a></li></ul>
+      </div>
+      <div>
+        <h4>Contact Info</h4>
+        <ul><li>✉ <a href="mailto:GDProductionmarketing@gmail.com" style="transition: color 0.3s;" onmouseover="this.style.color='var(--gold)'" onmouseout="this.style.color='inherit'">GDProductionmarketing@gmail.com</a></li><li>📍 Serving all 50 States, USA</li></ul>
+      </div>
+      <div>
+        <h4>Newsletter</h4>
+        <p class="text-sm text-muted">Subscribe for marketing tips &amp; tricks.</p>
+        <div class="newsletter-form"><input type="email" placeholder="Your email"><button>Join</button></div>
+      </div>
+    </div>
+    <div class="footer-divider"></div>
+    <div class="footer-bottom">
+      <p>© 2026 GD Production. All rights reserved.</p>
+      <div><a href="#">Privacy Policy</a><a href="#">Terms of Service</a></div>
+    </div>
+  </div>
+</footer>
+
+<!-- EMAIL FLOAT BUTTON -->
+<a href="mailto:GDProductionmarketing@gmail.com" class="email-float" aria-label="Email Us">
+  <span>📧 Email Us</span>
+</a>
+
+<script src="script.js"></script>
+</body>
+</html>

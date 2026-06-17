@@ -1,0 +1,239 @@
+{
+  "companyName": "GD Production",
+  "contactEmail": "GDProductionmarketing@gmail.com",
+  "hero": {
+    "badge": "Premium Digital Agency in the USA",
+    "title": "Expert Web Design, Branding & Digital Marketing for Local Businesses",
+    "subtitle": "We help local businesses scale with stunning design, high-converting websites, and data-driven marketing.",
+    "primaryCta": "Get a Free Consultation",
+    "secondaryCta": "View Our Portfolio"
+  },
+  "employees": [
+    {
+      "id": 1,
+      "name": "Muhammad Jawad Ahmad",
+      "position": "Founder & Creative Director",
+      "image": "/assets/jawad.png",
+      "bio": "Muhammad Jawad Ahmad is a graphic designer, website developer, SEO specialist, and digital marketing professional helping local businesses across the USA grow through branding, websites, social media marketing, and local search optimization.\n\nHis focus is creating professional designs and high-converting digital experiences that help businesses attract more customers and build long-term trust.",
+      "skills": [],
+      "experience": "10+ Years",
+      "email": "",
+      "phone": "",
+      "socialLinks": {
+        "linkedin": "",
+        "twitter": "",
+        "instagram": ""
+      },
+      "isVisible": true,
+      "cards": [
+        {
+          "title": "100+",
+          "text": "Projects Delivered"
+        },
+        {
+          "title": "Local Business",
+          "text": "Marketing"
+        },
+        {
+          "title": "SEO &",
+          "text": "Google Ranking"
+        }
+      ]
+    }
+  ],
+  "trust": [
+    "100+\nProjects Delivered",
+    "Local Business\nMarketing",
+    "Web\nDevelopment",
+    "Brand\nIdentity",
+    "Social Media\nMarketing",
+    "Fast\nTurnaround",
+    "USA-Based\nSupport"
+  ],
+  "services": [
+    {
+      "title": "Graphic Design",
+      "description": "Flyers, posters, menus, banners, logos, social media graphics, event promotions, business cards, and brand identity.",
+      "icon": "🎨",
+      "borderColor": "border-pink-500-20",
+      "gradientColor": "from-pink-500-20 to-rose-500-5"
+    },
+    {
+      "title": "Website Development",
+      "description": "Custom websites, high-converting landing pages, e-commerce stores, responsive web design, and seamless booking integrations.",
+      "icon": "🌐",
+      "borderColor": "border-blue-500-20",
+      "gradientColor": "from-blue-500-20 to-cyan-500-5"
+    },
+    {
+      "title": "Social Media Marketing",
+      "description": "Facebook, Instagram, & TikTok management, content creation, targeted ad campaigns, and strategic growth planning.",
+      "icon": "📈",
+      "borderColor": "border-purple-500-20",
+      "gradientColor": "from-purple-500-20 to-indigo-500-5"
+    },
+    {
+      "title": "Google Maps Ranking",
+      "description": "Google Business Profile optimization, local SEO, review management, map visibility, and driving inbound customer calls.",
+      "icon": "📍",
+      "borderColor": "border-green-500-20",
+      "gradientColor": "from-green-500-20 to-emerald-500-5"
+    },
+    {
+      "title": "Branding & Business Growth",
+      "description": "Comprehensive brand identity, irresistible offer creation, strategic campaign design, and data-driven local business growth.",
+      "icon": "🚀",
+      "borderColor": "border-yellow-500-20",
+      "gradientColor": "from-yellow-500-20 to-orange-500-5"
+    }
+  ],
+  "testimonials": [
+    {
+      "author": "Sarah K.",
+      "business": "Bella Vita Salon",
+      "rating": 5,
+      "text": "GD Production completely transformed our salon's marketing. The promotional flyers are stunning, and our Google Maps ranking went from page 3 to #1 in just a month!"
+    },
+    {
+      "author": "Ahmed M.",
+      "business": "Halal Meat & Grocery",
+      "rating": 5,
+      "text": "The team is incredibly talented and disciplined. They designed our menu boards and built our website. The zero upfront payment model earned my trust, but the final results absolutely blew me away."
+    },
+    {
+      "author": "David L.",
+      "business": "The Daily Grind Cafe",
+      "rating": 5,
+      "text": "Fast turnaround and high-converting designs! They helped us design our event banners and run monthly social promotions. Highly recommend GD Production!"
+    }
+  ],
+  "portfolio": [
+    {
+      "title": "Restaurant Flyers",
+      "category": "Restaurants",
+      "description": "Promotional flyers for local food businesses.",
+      "image": "https://picsum.photos/seed/restaurant/400/300"
+    },
+    {
+      "title": "Salon Promotions",
+      "category": "Salons",
+      "description": "Social media marketing materials for beauty salons.",
+      "image": "https://picsum.photos/seed/salon/400/300"
+    },
+    {
+      "title": "Butcher Shop Designs",
+      "category": "Butcher Shops",
+      "description": "Menu boards and branding for halal meat shops.",
+      "image": "https://picsum.photos/seed/butcher/400/300"
+    },
+    {
+      "title": "Business Websites",
+      "category": "Websites",
+      "description": "Modern, responsive websites for local services.",
+      "image": "https://picsum.photos/seed/website/400/300"
+    },
+    {
+      "title": "Hospital Website",
+      "category": "Healthcare & Medical",
+      "description": "A comprehensive website for a regional hospital.",
+      "image": "https://picsum.photos/seed/hospital/400/300"
+    },
+    {
+      "title": "Pharmacy Website",
+      "category": "Healthcare & Medical",
+      "description": "E-commerce and informational site for a local pharmacy.",
+      "image": "https://picsum.photos/seed/pharmacy/400/300"
+    }
+  ],
+  "beforeAfterShowcase": {
+    "title": " Halal Butcher Shop Menu Redesign",
+    "category": "Butcher Shops",
+    "description": "Upgraded our client's old menu board to a premium, modern design that is easy to read and increases order value.",
+    "beforeImage": "/assets/portfolio/butcher.png",
+    "afterImage": "/assets/portfolio/butcher.png"
+  },
+  "settings": {
+    "socialLinks": {
+      "website": "#",
+      "facebook": "#",
+      "instagram": "#",
+      "linkedin": "#"
+    },
+    "seo": {
+      "title": "GD Production | Graphic Design, Website Development & Marketing USA",
+      "description": "Professional graphic design, website development, SEO and social media marketing services for local businesses across the USA.",
+      "keywords": "graphic design, web development, seo, marketing, local business, USA, hospital marketing USA, pharmacy marketing USA, medical website design, healthcare marketing agency"
+    }
+  },
+  "healthcareCta": {
+    "title": "Grow Your Healthcare Business",
+    "subtitle": "Get More Patients, More Visibility & Better Online Presence"
+  },
+  "healthcareServices": [
+    {
+      "title": "Hospital Marketing",
+      "description": "Comprehensive digital marketing solutions to drive patient acquisition for hospitals.",
+      "icon": "🏥",
+      "borderColor": "border-blue-500-20",
+      "gradientColor": "from-blue-500-20 to-cyan-500-5"
+    },
+    {
+      "title": "Pharmacy Marketing",
+      "description": "Hyper-local marketing campaigns to promote your pharmacy services and increase foot traffic.",
+      "icon": "💊",
+      "borderColor": "border-green-500-20",
+      "gradientColor": "from-green-500-20 to-emerald-500-5"
+    },
+    {
+      "title": "Dental Clinic Marketing",
+      "description": "Grow your dental practice with highly targeted patient acquisition campaigns.",
+      "icon": "🦷",
+      "borderColor": "border-blue-500-20",
+      "gradientColor": "from-blue-500-20 to-cyan-500-5"
+    }
+  ],
+  "healthcareTestimonials": [
+    {
+      "author": "Dr. Smith",
+      "business": "City Medical Center",
+      "rating": 5,
+      "text": "GD Production helped us revamp our website, and our patient bookings have doubled. Highly recommended!"
+    },
+    {
+      "author": "Jane Doe",
+      "business": "Community Pharmacy",
+      "rating": 5,
+      "text": "The local SEO and Google Maps optimization brought so many new customers to our pharmacy."
+    }
+  ],
+  "discountOffers": [
+    {
+      "title": "Complete Business Growth Package",
+      "discountType": "fixed",
+      "discountValue": 500,
+      "originalPrice": 2499,
+      "finalPrice": 1999,
+      "description": "Get a premium custom website, full brand identity redesign, and 1 month of local SEO & Google Maps optimization. Dominate your local market today.",
+      "badgeText": "Exclusive Deal",
+      "startDate": "2026-06-01",
+      "endDate": "2026-07-31",
+      "isActive": true,
+      "ctaText": "Claim $500 Off",
+      "ctaLink": "#contact"
+    },
+    {
+      "title": "Social Media Marketing Kickstart",
+      "discountType": "percentage",
+      "discountValue": 25,
+      "originalPrice": 800,
+      "finalPrice": 600,
+      "description": "Start engaging your local audience with professional graphics and a strategic 30-day social media campaign.",
+      "badgeText": "Summer Special",
+      "startDate": "2026-06-10",
+      "endDate": "2026-08-15",
+      "isActive": true,
+      "ctaText": "Start Growing Now",
+      "ctaLink": "#contact"
+    }
+  ]
+}
