@@ -46,14 +46,16 @@
       "position": "Digital Marketing Expert",
       "image": "/assets/portfolio/WhatsAppImage2026-06-17at6.27.49AM.jpeg",
       "bio": "",
-      "skills": [],
+      "skills": [
+        "Social•Media•Expert"
+      ],
       "experience": "20",
       "email": "",
       "phone": "",
       "socialLinks": {
         "linkedin": "",
         "twitter": "",
-        "instagram": ""
+        "instagram": "https://www.instagram.com/josephmallipeddi?igsh=MXJucnljMmF1MTB0eA=="
       },
       "isVisible": true,
       "cards": []
