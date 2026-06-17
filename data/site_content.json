@@ -39,6 +39,24 @@
           "text": "Google Ranking"
         }
       ]
+    },
+    {
+      "id": 1781655446820,
+      "name": "Joseph Mallipeddi",
+      "position": "Digital Marketing Expert",
+      "image": "/assets/portfolio/WhatsAppImage2026-06-17at6.27.49AM.jpeg",
+      "bio": "",
+      "skills": [],
+      "experience": "20",
+      "email": "",
+      "phone": "",
+      "socialLinks": {
+        "linkedin": "",
+        "twitter": "",
+        "instagram": ""
+      },
+      "isVisible": true,
+      "cards": []
     }
   ],
   "trust": [
@@ -206,34 +224,5 @@
       "text": "The local SEO and Google Maps optimization brought so many new customers to our pharmacy."
     }
   ],
-  "discountOffers": [
-    {
-      "title": "Complete Business Growth Package",
-      "discountType": "fixed",
-      "discountValue": 500,
-      "originalPrice": 2499,
-      "finalPrice": 1999,
-      "description": "Get a premium custom website, full brand identity redesign, and 1 month of local SEO & Google Maps optimization. Dominate your local market today.",
-      "badgeText": "Exclusive Deal",
-      "startDate": "2026-06-01",
-      "endDate": "2026-07-31",
-      "isActive": true,
-      "ctaText": "Claim $500 Off",
-      "ctaLink": "#contact"
-    },
-    {
-      "title": "Social Media Marketing Kickstart",
-      "discountType": "percentage",
-      "discountValue": 25,
-      "originalPrice": 800,
-      "finalPrice": 600,
-      "description": "Start engaging your local audience with professional graphics and a strategic 30-day social media campaign.",
-      "badgeText": "Summer Special",
-      "startDate": "2026-06-10",
-      "endDate": "2026-08-15",
-      "isActive": true,
-      "ctaText": "Start Growing Now",
-      "ctaLink": "#contact"
-    }
-  ]
+  "discountOffers": []
 }
